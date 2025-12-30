@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenBrand - Premium Pens for Every Writer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .product-item {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to PenBrand</h1>
+        <p>Discover the finest pens for writing, sketching, and creativity.</p>
+    </header>
+    
+    <div class="container">
+        <h2>Our Top Products</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200?text=Classic+Ballpoint" alt="Classic Ballpoint Pen">
+                <h3>Classic Ballpoint Pen</h3>
+                <p>Smooth writing experience for everyday use. $5.99</p>
+                <button onclick="alert('Added to cart!')">Buy Now</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200?text=Gel+Ink+Pen" alt="Gel Ink Pen">
+                <h3>Gel Ink Pen</h3>
+                <p>Vibrant colors and quick-drying ink. $7.49</p>
+                <button onclick="alert('Added to cart!')">Buy Now</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300x200?text=Fountain+Pen" alt="Fountain Pen">
+                <h3>Luxury Fountain Pen</h3>
+                <p>Elegant design for professionals. $29.99</p>
+                <button onclick="alert('Added to cart!')">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 PenBrand. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple JS for interactivity (e.g., button clicks)
+        console.log("PenBrand website loaded!");
+    </script>
+</body>
+</html>
